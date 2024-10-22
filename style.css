@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:grid;
+    place-content: center;
+    background-color: rgb(246, 250, 253);
+}
+.content{
+    background-color: white;
+    padding:40px 35px 40px 35px;
+    position: relative;
+
+}
+.mainimg{
+    width:200px;
+    height:300px
+}
+/* HEADER SECTION */
+header{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-bottom: 20px;
+
+}
+.colorp{
+    color:rgb(53, 77, 228);
+}
+
+.span{
+    font-weight: bold;
+    color:rgb(53, 77, 228);
+}
+
+/* MAIN BOX SECTOR */
+
+.mainbox{
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: 300px;
+    gap:32px
+}
+.maininfo{
+    display: grid;
+    grid-template-rows:1fr 4fr 5fr;
+}
+.mainlinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.people{
+    display: grid;
+    grid-template-rows: 45% 45%;
+    
+}
+.mainprice{
+    display: grid;
+    grid-template-columns: 2.8fr 8fr 3fr;
+    margin-top:20px
+}
+.pricebutton{
+    width:50px;
+    height:20px;
+    border: solid 1px;
+    border-radius:10px;
+    background-color: white;
+    text-align: center;
+    padding: 4px 6px 4px 6px;
+}
+.play{
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:35px;
+    bottom:42px
+}
+.later{
+    background-color: rgba(52, 46, 46, 0.75);
+    color:white;
+    padding:3px 30px 3px 5px;
+    border-radius: 5px;;
+}
+h6{
+    font-weight: bold;
+    font-size: 18px;
+}
+p{
+    color:rgb(53, 77, 228);
+}
+.part{
+    color:black
+}
+.more{
+    margin-top:
+        20px;
+    
+}
